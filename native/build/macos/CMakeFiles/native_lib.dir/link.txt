@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libnative_lib.dylib -install_name @rpath/libnative_lib.dylib CMakeFiles/native_lib.dir/src/native_lib.cpp.o

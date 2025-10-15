@@ -1,0 +1,3 @@
+/Users/chenhui/flutterProjects/ffi_demo/native/build/android/armeabi-v7a/CMakeFiles/native_lib.dir
+/Users/chenhui/flutterProjects/ffi_demo/native/build/android/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/chenhui/flutterProjects/ffi_demo/native/build/android/armeabi-v7a/CMakeFiles/rebuild_cache.dir

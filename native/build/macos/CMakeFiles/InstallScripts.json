@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/chenhui/flutterProjects/ffi_demo/native/build/macos/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
