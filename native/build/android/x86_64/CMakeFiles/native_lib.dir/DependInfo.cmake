@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/chenhui/flutterProjects/ffi_demo/native/src/long_link.cpp" "CMakeFiles/native_lib.dir/src/long_link.cpp.o" "gcc" "CMakeFiles/native_lib.dir/src/long_link.cpp.o.d"
+  "/Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_manager.cpp" "CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o" "gcc" "CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o.d"
+  "/Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_worker.cpp" "CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o" "gcc" "CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o.d"
   "/Users/chenhui/flutterProjects/ffi_demo/native/src/native_lib.cpp" "CMakeFiles/native_lib.dir/src/native_lib.cpp.o" "gcc" "CMakeFiles/native_lib.dir/src/native_lib.cpp.o.d"
   "" "/Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so" "gcc" "CMakeFiles/native_lib.dir/link.d"
   )

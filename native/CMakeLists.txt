@@ -8,6 +8,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 设置源文件
 set(SOURCE_FILES
     src/native_lib.cpp
+    src/long_link_manager.cpp
+    src/long_link_worker.cpp
+    src/long_link.cpp
 )
 
 # 创建动态库

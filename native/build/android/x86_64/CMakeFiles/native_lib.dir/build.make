@@ -86,18 +86,66 @@ CMakeFiles/native_lib.dir/src/native_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/native_lib.dir/src/native_lib.cpp.s"
 	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenhui/flutterProjects/ffi_demo/native/src/native_lib.cpp -o CMakeFiles/native_lib.dir/src/native_lib.cpp.s
 
+CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o: CMakeFiles/native_lib.dir/flags.make
+CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o: /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_manager.cpp
+CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o: CMakeFiles/native_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/chenhui/flutterProjects/ffi_demo/native/build/android/x86_64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o -MF CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o.d -o CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o -c /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_manager.cpp
+
+CMakeFiles/native_lib.dir/src/long_link_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/native_lib.dir/src/long_link_manager.cpp.i"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_manager.cpp > CMakeFiles/native_lib.dir/src/long_link_manager.cpp.i
+
+CMakeFiles/native_lib.dir/src/long_link_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/native_lib.dir/src/long_link_manager.cpp.s"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_manager.cpp -o CMakeFiles/native_lib.dir/src/long_link_manager.cpp.s
+
+CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o: CMakeFiles/native_lib.dir/flags.make
+CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o: /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_worker.cpp
+CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o: CMakeFiles/native_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/chenhui/flutterProjects/ffi_demo/native/build/android/x86_64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o -MF CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o.d -o CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o -c /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_worker.cpp
+
+CMakeFiles/native_lib.dir/src/long_link_worker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/native_lib.dir/src/long_link_worker.cpp.i"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_worker.cpp > CMakeFiles/native_lib.dir/src/long_link_worker.cpp.i
+
+CMakeFiles/native_lib.dir/src/long_link_worker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/native_lib.dir/src/long_link_worker.cpp.s"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link_worker.cpp -o CMakeFiles/native_lib.dir/src/long_link_worker.cpp.s
+
+CMakeFiles/native_lib.dir/src/long_link.cpp.o: CMakeFiles/native_lib.dir/flags.make
+CMakeFiles/native_lib.dir/src/long_link.cpp.o: /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link.cpp
+CMakeFiles/native_lib.dir/src/long_link.cpp.o: CMakeFiles/native_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/chenhui/flutterProjects/ffi_demo/native/build/android/x86_64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/native_lib.dir/src/long_link.cpp.o"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/native_lib.dir/src/long_link.cpp.o -MF CMakeFiles/native_lib.dir/src/long_link.cpp.o.d -o CMakeFiles/native_lib.dir/src/long_link.cpp.o -c /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link.cpp
+
+CMakeFiles/native_lib.dir/src/long_link.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/native_lib.dir/src/long_link.cpp.i"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link.cpp > CMakeFiles/native_lib.dir/src/long_link.cpp.i
+
+CMakeFiles/native_lib.dir/src/long_link.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/native_lib.dir/src/long_link.cpp.s"
+	/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenhui/Library/Android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/chenhui/flutterProjects/ffi_demo/native/src/long_link.cpp -o CMakeFiles/native_lib.dir/src/long_link.cpp.s
+
 # Object files for target native_lib
 native_lib_OBJECTS = \
-"CMakeFiles/native_lib.dir/src/native_lib.cpp.o"
+"CMakeFiles/native_lib.dir/src/native_lib.cpp.o" \
+"CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o" \
+"CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o" \
+"CMakeFiles/native_lib.dir/src/long_link.cpp.o"
 
 # External object files for target native_lib
 native_lib_EXTERNAL_OBJECTS =
 
 /Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/src/native_lib.cpp.o
+/Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o
+/Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o
+/Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/src/long_link.cpp.o
 /Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/build.make
 /Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/compiler_depend.ts
 /Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so: CMakeFiles/native_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/chenhui/flutterProjects/ffi_demo/native/build/android/x86_64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/chenhui/flutterProjects/ffi_demo/native/build/android/x86_64/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /Users/chenhui/flutterProjects/ffi_demo/native/libs/android/x86_64/libnative_lib.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/native_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -11,6 +11,8 @@ import '../pages/callback_test/callback_test_page.dart';
 import '../pages/callback_test/callback_test_controller.dart';
 import '../pages/async_test/async_test_page.dart';
 import '../pages/async_test/async_test_controller.dart';
+import '../pages/long_link_test/long_link_test_page.dart';
+import '../pages/long_link_test/long_link_controller.dart';
 import 'app_routes.dart';
 
 /// 应用页面路由配置
@@ -61,6 +63,13 @@ class AppPages {
       page: () => const AsyncTestPage(),
       binding: AsyncTestBinding(),
     ),
+
+    // 长连接测试页
+    GetPage(
+      name: AppRoutes.longLinkTest,
+      page: () => const LongLinkTestPage(),
+      binding: LongLinkTestBinding(),
+    ),
   ];
 }
 
@@ -109,5 +118,13 @@ class AsyncTestBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut<AsyncTestController>(() => AsyncTestController());
+  }
+}
+
+/// 长连接测试页依赖注入
+class LongLinkTestBinding extends Bindings {
+  @override
+  void dependencies() {
+    Get.lazyPut<LongLinkController>(() => LongLinkController());
   }
 }

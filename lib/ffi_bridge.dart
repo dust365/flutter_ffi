@@ -1,7 +1,7 @@
 import 'dart:ffi' as ffi;
-import 'dart:io';
 import 'package:ffi/ffi.dart';
 import 'ffi_types.dart';
+import 'native_library_loader.dart';
 
 /// Native Library FFI Bridge
 class NativeLibrary {
@@ -33,41 +33,8 @@ class NativeLibrary {
   late final AsyncComputeDart asyncCompute;
 
   NativeLibrary() {
-    _lib = _loadLibrary();
+    _lib = NativeLibraryLoader.loadLibrary('native_lib');
     _bindFunctions();
-  }
-
-  /// 加载动态库
-  ffi.DynamicLibrary _loadLibrary() {
-    const base = 'native_lib';
-
-    if (Platform.isAndroid) {
-      // Android: 从应用的 lib 目录加载（通过 jniLibs 或 CMake）
-      return ffi.DynamicLibrary.open('lib$base.so');
-    } else if (Platform.isIOS) {
-      // iOS 使用静态链接或 process()
-      return ffi.DynamicLibrary.process();
-    } else if (Platform.isMacOS) {
-      // macOS: 从 assets 目录加载
-      final executableDir = File(Platform.resolvedExecutable).parent.path;
-      final libPath =
-          '$executableDir/../Frameworks/App.framework/Versions/A/Resources/flutter_assets/assets/native/lib$base.dylib';
-
-      print('🔍 尝试从 assets 加载: $libPath');
-
-      try {
-        return ffi.DynamicLibrary.open(libPath);
-      } catch (e) {
-        print('❌ 加载失败: $e');
-        throw Exception('无法加载原生库。请确保已将库文件放在 assets/native/ 目录');
-      }
-    } else if (Platform.isWindows) {
-      return ffi.DynamicLibrary.open('$base.dll');
-    } else if (Platform.isLinux) {
-      return ffi.DynamicLibrary.open('lib$base.so');
-    } else {
-      throw UnsupportedError('Unsupported platform');
-    }
   }
 
   /// 绑定所有 C++ 函数

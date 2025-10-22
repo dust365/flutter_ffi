@@ -34,6 +34,12 @@ class HomeController extends GetxController {
       icon: '⚡',
       route: '/async-test',
     ),
+    TestModule(
+      title: '长连接测试',
+      description: '测试长连接库和委托模式',
+      icon: '🔗',
+      route: '/long-link-test',
+    ),
   ];
 
   /// 跳转到指定测试页面

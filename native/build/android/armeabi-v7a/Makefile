@@ -129,6 +129,78 @@ native_lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/build
 .PHONY : native_lib/fast
 
+src/long_link.o: src/long_link.cpp.o
+.PHONY : src/long_link.o
+
+# target to build an object file
+src/long_link.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link.cpp.o
+.PHONY : src/long_link.cpp.o
+
+src/long_link.i: src/long_link.cpp.i
+.PHONY : src/long_link.i
+
+# target to preprocess a source file
+src/long_link.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link.cpp.i
+.PHONY : src/long_link.cpp.i
+
+src/long_link.s: src/long_link.cpp.s
+.PHONY : src/long_link.s
+
+# target to generate assembly for a file
+src/long_link.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link.cpp.s
+.PHONY : src/long_link.cpp.s
+
+src/long_link_manager.o: src/long_link_manager.cpp.o
+.PHONY : src/long_link_manager.o
+
+# target to build an object file
+src/long_link_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link_manager.cpp.o
+.PHONY : src/long_link_manager.cpp.o
+
+src/long_link_manager.i: src/long_link_manager.cpp.i
+.PHONY : src/long_link_manager.i
+
+# target to preprocess a source file
+src/long_link_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link_manager.cpp.i
+.PHONY : src/long_link_manager.cpp.i
+
+src/long_link_manager.s: src/long_link_manager.cpp.s
+.PHONY : src/long_link_manager.s
+
+# target to generate assembly for a file
+src/long_link_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link_manager.cpp.s
+.PHONY : src/long_link_manager.cpp.s
+
+src/long_link_worker.o: src/long_link_worker.cpp.o
+.PHONY : src/long_link_worker.o
+
+# target to build an object file
+src/long_link_worker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link_worker.cpp.o
+.PHONY : src/long_link_worker.cpp.o
+
+src/long_link_worker.i: src/long_link_worker.cpp.i
+.PHONY : src/long_link_worker.i
+
+# target to preprocess a source file
+src/long_link_worker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link_worker.cpp.i
+.PHONY : src/long_link_worker.cpp.i
+
+src/long_link_worker.s: src/long_link_worker.cpp.s
+.PHONY : src/long_link_worker.s
+
+# target to generate assembly for a file
+src/long_link_worker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/native_lib.dir/build.make CMakeFiles/native_lib.dir/src/long_link_worker.cpp.s
+.PHONY : src/long_link_worker.cpp.s
+
 src/native_lib.o: src/native_lib.cpp.o
 .PHONY : src/native_lib.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... native_lib"
+	@echo "... src/long_link.o"
+	@echo "... src/long_link.i"
+	@echo "... src/long_link.s"
+	@echo "... src/long_link_manager.o"
+	@echo "... src/long_link_manager.i"
+	@echo "... src/long_link_manager.s"
+	@echo "... src/long_link_worker.o"
+	@echo "... src/long_link_worker.i"
+	@echo "... src/long_link_worker.s"
 	@echo "... src/native_lib.o"
 	@echo "... src/native_lib.i"
 	@echo "... src/native_lib.s"

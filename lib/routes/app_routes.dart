@@ -10,4 +10,5 @@ class AppRoutes {
   static const String structTest = '/struct-test';
   static const String callbackTest = '/callback-test';
   static const String asyncTest = '/async-test';
+  static const String longLinkTest = '/long-link-test';
 }
